@@ -4,7 +4,6 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
-import './assets/css/unicons.css'
 import './assets/css/style.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
