@@ -16,7 +16,7 @@ function Statement(props) {
                 <div className="row justify-content-center">
                     <div className="col-10 d-flex text-center mt-4">
                         <p className="text-light">
-                        Com minha paixão por programação e habilidades técnicas aperfeiçoadas através de projetos próprios e aprendizado constante, estou preparado para contribuir com sua equipe de desenvolvimento e colaborar em projetos desafiadores, além de estar sempre disposto a aprender e me adaptar às necessidades do projeto e da equipe.
+                        Sou desenvolvedor web frontend jr. e técnico em comunicação visual. Sou apaixonado por programação e as possibilidades que o desenvolvimento nos traz. Acredito em um futuro mais eficiente e confortável, construído a partir da evolução e aplicação da tecnologia, e quero fazer parte desta transformação. Gosto de aprender e aplicar soluções mais eficientes e intuitivas aos meus projetos. Tenho inglês avançado, facilidade de comunicação e de aprendizado e procuro sempre me adaptar às necessidades do projeto e da equipe.
                         </p>
                     </div>
                 </div>
