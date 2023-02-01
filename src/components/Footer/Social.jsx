@@ -1,5 +1,5 @@
 import React from "react";
-import { GitHub, LinkedIn, Mail } from '@mui/icons-material'
+import { GitHub, LinkedIn, Mail, WhatsApp } from '@mui/icons-material'
 
 import SocialIcon from "./SocialIcon";
 
@@ -19,7 +19,13 @@ function Social(props) {
             title: 'Mail',
             link: 'mailto:pablo.h.bombonato@gmail.com',
             icon: <Mail style={{fontSize: '2.2rem'}} />
+        },
+        {
+            title: 'Whatsapp',
+            link: 'https://wa.me/5516988289579',
+            icon: <WhatsApp style={{fontSize: '2.2rem'}} />
         }
+        
     ]
 
     return (

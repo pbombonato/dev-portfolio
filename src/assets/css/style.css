@@ -24,19 +24,6 @@ p {
   width: auto;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  position: absolute;
-}
-
-.carousel-control-prev-icon {
-  left: 15%;
-}
-
-.carousel-control-next-icon {
-  right: 15%;
-}
-
 #navbarNav .active {
   color: var(--main-color)
 }
