@@ -448,6 +448,12 @@ b, strong {
     display: block;
     margin: 10px 0;
   }
+
+  /* .custom-btn.custom-btn-bg {
+    padding: .8rem 1.8rem;
+    background: #474559;
+    color: #ffffff;
+  } */
 }
 @media (max-width: 320px) {
   .animated-text {

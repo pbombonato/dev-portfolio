@@ -28,9 +28,9 @@ function About(props) {
                             <AnimatedText />
                             <p >Sou apaixonado por desenvolvimento e gosto de usar a tecnologia para criar soluções eficientes e intuitivas.</p>
                             <div className="mt-4">
-                                <button className="btn mr-lg-2 custom-btn" onClick={onButtonClick}>
+                                <button className="col-12 col-lg-6 btn mr-lg-2 custom-btn" onClick={onButtonClick}>
                                     <PictureAsPdf />&nbsp; Conheça meu currículo</button>
-                                <a href="mailto:pablo.h.bombonato@gmail.com" className="btn custom-btn custom-btn-bg">
+                                <a href="mailto:pablo.h.bombonato@gmail.com" className="btn col-12 col-lg-4 custom-btn custom-btn-bg">
                                     Fale comigo</a>
                             </div>
                         </div>
