@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=PT+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=PT+Sans&display=swap");
 
 :root {
   --main-color: #6e07f3;
   --custom-blue: #141c3a;
-  --custom-green: #5BE9B9;
+  --custom-green: #5be9b9;
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   padding-top: 70px;
 }
 
 p {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 #profile p {
@@ -25,7 +25,7 @@ p {
 }
 
 #navbarNav .active {
-  color: var(--main-color)
+  color: var(--main-color);
 }
 
 .contact-btn {
@@ -38,7 +38,7 @@ p {
   font-size: 1.1rem;
   line-height: normal;
   overflow: hidden;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
 .contact-btn:hover {
@@ -83,7 +83,12 @@ p {
   color: #5b5b5b;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: bold;
   letter-spacing: -1px;
 }
@@ -105,7 +110,8 @@ h3 {
 }
 
 h3,
-b, strong {
+b,
+strong {
   font-weight: bold;
 }
 
@@ -126,8 +132,8 @@ b, strong {
   color: #5b5b5b;
   font-weight: bold;
   border-radius: 3rem;
-  padding: .8rem 1.8rem;
-  font-size: .9rem;
+  padding: 0.8rem 1.8rem;
+  font-size: 0.9rem;
   line-height: normal;
   overflow: hidden;
   transition: all 0.4s ease;
@@ -136,7 +142,7 @@ b, strong {
   color: var(--main-color);
 }
 .custom-btn.custom-btn-bg {
-  padding: .9rem 1.8rem;
+  padding: 0.9rem 1.8rem;
   background: #474559;
   color: #ffffff;
 }
@@ -172,7 +178,7 @@ b, strong {
   animation: BottomTotop 6s linear infinite 0s;
   white-space: nowrap;
 }
-.animated-item:nth-child(2n+2) {
+.animated-item:nth-child(2n + 2) {
   animation-delay: 3s;
 }
 
@@ -306,15 +312,15 @@ b, strong {
   right: 6px;
 }
 .color-mode-icon:after {
-  font-family: 'unicons';
-  content: '\ea9f';
+  font-family: "unicons";
+  content: "\ea9f";
   font-size: 30px;
   font-weight: 300;
   font-style: normal;
 }
 .color-mode-icon.active:after {
-  font-family: 'unicons';
-  content: '\eb65';
+  font-family: "unicons";
+  content: "\eb65";
   font-size: 30px;
   color: #ffffff;
 }
@@ -338,7 +344,12 @@ b, strong {
 }
 .dark-mode .feature-card .uil,
 .dark-mode .navbar-light .navbar-brand,
-.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6,
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6,
 .dark-mode .color-mode {
   color: #ffffff;
 }
@@ -361,7 +372,8 @@ b, strong {
 .contact-form .form-control:not(textarea) {
   height: 48px;
 }
-.contact-form .form-control:hover, .contact-form .form-control:focus {
+.contact-form .form-control:hover,
+.contact-form .form-control:focus {
   border-color: var(--main-color);
 }
 .contact-form .submit-btn {
@@ -383,16 +395,17 @@ b, strong {
   position: relative;
   bottom: 8px;
 }
-.contact-info p, .contact-info a {
+.contact-info p,
+.contact-info a {
   color: #f7f3f3;
 }
 
 .social-links {
-    background-color: var(--main-color); 
-    border: #fff;
-    width: 2rem; 
-    height: 2rem; 
-    color: #fff; 
+  background-color: var(--main-color);
+  border: #fff;
+  width: 2rem;
+  height: 2rem;
+  color: #fff;
 }
 
 .social-links:hover {
@@ -419,7 +432,6 @@ b, strong {
   }
 }
 @media (max-width: 767px) {
-
   h2 {
     font-size: 2em;
   }
@@ -435,9 +447,9 @@ b, strong {
   }
 }
 @media (max-width: 580px) {
-	.animated-info {
-		min-width: 200px;
-	}
+  .animated-info {
+    min-width: 200px;
+  }
 
   h1 {
     font-size: 1.9rem;
