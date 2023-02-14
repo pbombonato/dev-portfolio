@@ -2,7 +2,7 @@
 
 Para este projeto, usei: <br>
 
-:star: <b>React e Typescript</b> <br>
+:star: <b>React e Typescript</b>
 - Create-react-app com Webpack
 - CSS3 com <b>Bootstrap</b>
 - Vercel
