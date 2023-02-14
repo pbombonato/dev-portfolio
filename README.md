@@ -1,4 +1,4 @@
-# Meu portfólio de desenvolvimento front-end
+## Meu portfólio de desenvolvimento front-end
 
 Para este projeto, usei: <br>
 
