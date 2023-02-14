@@ -2,6 +2,7 @@ import React from "react";
 
 import { ChevronLeft, ChevronRight } from "@mui/icons-material";
 
+import PokefinderImage from '../../../assets/images/project/pokefinder-screely.png'
 import ProjectImage1 from '../../../assets/images/project/project-image01.png'
 import ProjectImage2 from '../../../assets/images/project/project-image02.png'
 import ProjectImage3 from '../../../assets/images/project/project-image03.png'
@@ -11,6 +12,12 @@ import CarouselItem from "./CarouselItem";
 
 function Carousel(props) {
     const carouselArray = [
+        {
+            title: "PokéFinder",
+            image: PokefinderImage,
+            link: 'https://github.com/pbombonato/pokefinder',
+            customClass: 'active',
+        },
         {
             title: "FreeToGame Clone",
             image: ProjectImage1,
@@ -24,7 +31,7 @@ function Carousel(props) {
         {
             title: 'Simple Flappy Bird using DOM',
             link: 'https://github.com/pbombonato/flappy-bird-dom',
-            image: ProjectImage2
+            image: ProjectImage2,
         },
         {
             title: 'React to-do list',
@@ -35,7 +42,6 @@ function Carousel(props) {
             title: 'Meu portfólio',
             link: 'https://github.com/pbombonato/dev-portfolio',
             image: ProjectImage5,
-            customClass: 'active',
         }
     ]
 
@@ -51,6 +57,7 @@ function Carousel(props) {
                         <li data-target="#carouselProjects" data-slide-to="2"></li>
                         <li data-target="#carouselProjects" data-slide-to="3"></li>
                         <li data-target="#carouselProjects" data-slide-to="4"></li>
+                        <li data-target="#carouselProjects" data-slide-to="5"></li>
                     </ol>
 
                     <div className="carousel-inner shadow-lg">
