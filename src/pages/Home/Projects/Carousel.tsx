@@ -5,6 +5,7 @@ import { ChevronLeft, ChevronRight } from "@mui/icons-material";
 import CarouselItem from "./CarouselItem";
 
 import PokefinderImage from "../../../assets/images/project/pokefinder-screely.png";
+import BefitImage from "../../../assets/images/project/befit-screely.png";
 import ProjectImage1 from "../../../assets/images/project/project-image01.png";
 import ProjectImage2 from "../../../assets/images/project/project-image02.png";
 import ProjectImage3 from "../../../assets/images/project/project-image03.png";
@@ -14,10 +15,15 @@ import ProjectImage5 from "../../../assets/images/project/project-image05.png";
 function Carousel() {
   const carouselArray = [
     {
+      title: "BeFit",
+      image: BefitImage,
+      link: "https://www.pbombonato.com",
+      customClass: "active",
+    },
+    {
       title: "PokéFinder",
       image: PokefinderImage,
       link: "https://github.com/pbombonato/pokefinder",
-      customClass: "active",
     },
     {
       title: "FreeToGame Clone",
@@ -33,11 +39,6 @@ function Carousel() {
       title: "Simple Flappy Bird using DOM",
       link: "https://github.com/pbombonato/flappy-bird-dom",
       image: ProjectImage2,
-    },
-    {
-      title: "React to-do list",
-      link: "https://github.com/pbombonato/to-do-list",
-      image: ProjectImage4,
     },
     {
       title: "Meu portfólio",
